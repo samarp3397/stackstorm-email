@@ -1,5 +1,5 @@
 ---
-name: create_vm
+name: vm_create
 pack: email123
 runner_type: "python-script"
 description: action to create virtual machine on cloud  
