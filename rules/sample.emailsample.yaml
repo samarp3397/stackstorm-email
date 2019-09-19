@@ -1,17 +1,17 @@
 ---
 name: Sample123
 description: "Rule which sends an email when an email from johndoe@gmail.com is received"
-pack: email123
+pack: semail
 enabled: true
 trigger:
-  type: email123.imap.message
+  type: semail.imap.message
   parameters: {}
 criteria:
   trigger.subject:
     pattern: vm create
     type: contains
 action:
-  ref: email123.vm_create
+  ref: semail.vm_create
   parameters:
     Subcription_id: '2f50f202-0a84-4c8c-a929-fcc5a3174590'
     Group_Name: '{{trigger.group}}'
