@@ -1,6 +1,6 @@
 ---
 name: vm_create
-pack: email123
+pack: semail
 runner_type: "python-script"
 description: action to create virtual machine on cloud  
 enabled: true
